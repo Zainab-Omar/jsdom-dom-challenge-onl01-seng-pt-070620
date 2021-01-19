@@ -1,6 +1,6 @@
 // i is counter for seconds and j is counter for likes
 let i = -1; 
-let j=0;
+let j = 0;
 
 let interval = setInterval(increment, 1000);
 
@@ -11,7 +11,7 @@ function increment(){
     j = 0;
 }
 
-increment();
+//increment();
 
 document.getElementById("minus").addEventListener("click", function(){
     i--;
